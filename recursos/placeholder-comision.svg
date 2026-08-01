@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="fondoComision" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22090f"/>
+      <stop offset="55%" stop-color="#2c0d16"/>
+      <stop offset="100%" stop-color="#160308"/>
+    </linearGradient>
+    <radialGradient id="brilloComision" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#ff9ab0" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ff9ab0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#fondoComision)"/>
+  <rect width="400" height="300" fill="url(#brilloComision)"/>
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+
+  <text x="200" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#ff9ab0" opacity="0.85">&#10022;</text>
+  <text x="200" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="15" letter-spacing="3" fill="#e8cbd3" opacity="0.75">COMISIÓN</text>
+</svg>
